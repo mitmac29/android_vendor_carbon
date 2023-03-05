@@ -18,5 +18,4 @@ CUSTOM_SECURITY_PATCH := 2023-01-05
 
 # Set props
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-  ro.carbon.build.flavor=$(FLAMINGO_BUILD_FLAVOR) \
   ro.carbon.build_security_patch=$(CUSTOM_SECURITY_PATCH)      
